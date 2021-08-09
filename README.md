@@ -1,18 +1,17 @@
-# Run Buddy, Inc
+# Profile
 
 ## Purpose
-A website that offers fitness trainer matching services. 
+My profile page hosting major projects. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://JiliJiang.github.io/run-buddy/
+https://JiliJiang.github.io/my-profile/
 
 ## Contribution
 
 Made with ❤️ by Jili Jiang
 
-
-### ©️2019 Run Buddy, Inc 
+ 
