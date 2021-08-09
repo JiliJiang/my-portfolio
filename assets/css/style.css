@@ -1,0 +1,456 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(2, 40, 41);
+}
+
+body {
+  color: var(--tertiary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: rgba(211, 222, 238, 0.5);
+}
+
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+header nav ul li a:hover {
+  background: grey;
+  color: white;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+
+
+/* STYLE ALL SECTION TAGS */
+section {
+  padding: 60px;
+}
+
+/* HERO STYLES START */
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero h2 {
+  color:rgb(2, 40, 41, 60%);
+  font-size: 58px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-right: 10%;
+  margin-bottom: 0;
+}
+
+/* HERO STYLES END */
+
+
+/* INTRO STYLES */
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background-image: url('../images/mainbackground.jpg');
+  background-attachment: fixed;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.intro h3 {
+  font-size: 46px;
+  font-family: cursive;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: right;
+  
+  flex: 1 20%;
+  padding-right: 60px;
+  padding-left: 0;
+  padding-top: 20px;
+  
+}
+
+.intro p {
+  line-height: 1.7;
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: left;
+  flex:2 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  
+}
+
+/* INTRO STYLES END */
+
+
+/* WORK STYLES START */
+
+.work {
+  background-image: url('../images/mainbackground.jpg');
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  
+  
+}
+
+.work h3 {
+  font-size: 46px;
+  font-family: cursive;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: right;
+  flex: 1 20%;
+  padding-right: 60px;
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex:2 50%;  
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(130, 167, 221, 0.5);
+  border-radius: 15px;
+}
+
+.project-text h3 p {
+  text-align: left;
+  height: 50px;
+  width: 300px;
+  color: white;
+  padding-left: 40px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.project-text h3 {
+  font-size: 20px;
+  margin-top:100px;
+  color: white;
+}
+
+.project-text p {
+  font-size: 16px;
+  color: white
+}
+
+/*project1*/
+
+.project-box1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex:2 40%;
+}
+
+.project-box1 .project-text {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+#project1 {
+  background-image: url('../images/project1.jpg');
+  height: 420px;
+  background-size:cover;
+  background-position:100%;
+  border-radius: 15px;
+}
+
+/*project2*/
+
+.project-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1.5 20%;
+}
+
+.project-box2 .project-text {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#project2 {
+  background-image: url('../images/project2.jpg');
+  height: 180px;
+  background-size:cover;
+  background-position: 100%;
+  border-radius: 15px;
+}
+
+/*project3*/
+
+.project-box3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1.5 20%
+}
+
+#project3 {
+  background-image: url('../images/project3.jpg');
+  height: 240px;
+  background-size:cover;
+  background-position: 100%;
+  border-radius: 15px;
+}
+
+.project-box3 .project-text {
+  padding-left: 150px;
+  padding-top: 50px
+}
+
+/* WORK STYLES END */
+
+
+/* CONTACT STYLES START */
+.contact {
+  background: grey;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+}
+
+.contact h3 {
+  font-size: 46px;
+  font-family: cursive;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: right;
+  flex: 1 20%;
+  padding-right: 60px;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.contact-info {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex:2 50%;
+}
+
+#phone {
+  text-align: center;
+  flex: 1 30%;
+  
+}
+
+#phone span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+#email{
+  flex: 1 30%;
+  text-align:center;
+}
+
+#email span{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+
+#address{
+  text-align: center;
+  font: 16px;
+  flex: 2 30%;
+  
+}
+
+#address span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*CONTACT STYLES END*/
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta, .hero-form {
+    width: 100%;
+  }
+  
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .trainer {
+    flex: 0 70%;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .step-text {
+    flex: 100%;  
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .trainer {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+}
