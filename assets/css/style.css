@@ -45,7 +45,6 @@ header a {
   color: rgba(211, 222, 238, 0.5);
 }
 
-
 header nav {
   margin: 7px 0;
 }
@@ -75,11 +74,13 @@ header nav ul li a:hover {
 /* HEADER / NAVBAR STYLES END */
 
 
-
 /* STYLE ALL SECTION TAGS */
 section {
-  padding: 60px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 
 /* HERO STYLES START */
 .hero {
@@ -153,9 +154,10 @@ section {
   background-image: url('../images/mainbackground.jpg');
   background-attachment: fixed;
   display: flex;
+  justify-content: flex-end;
   flex-wrap: wrap;
   align-items: stretch;
-  
+  padding-bottom: 10%;
 }
 
 .work h3 {
