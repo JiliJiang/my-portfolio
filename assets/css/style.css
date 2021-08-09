@@ -175,7 +175,7 @@ section {
   flex-wrap: wrap;
   flex:2 50%;  
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: 0 0 20px rgba(130, 167, 221, 0.5);
   border-radius: 15px;
 }
@@ -227,7 +227,7 @@ section {
 .project-box2 {
   display: flex;
   flex-wrap: wrap;
-  flex: 2 60%;
+  flex: 1 40%;
 }
 
 .project-box2 .project-text {
@@ -248,7 +248,7 @@ section {
 .project-box3 {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 30%
+  flex: 1 40%
 }
 
 #project3 {
