@@ -141,7 +141,6 @@ section {
   flex:2 50%;
   padding-top: 20px;
   padding-left: 20px;
-  padding-bottom: 20px;
   
 }
 
@@ -156,7 +155,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  
   
 }
 
@@ -208,17 +206,17 @@ section {
 .project-box1 {
   display: flex;
   flex-wrap: wrap;
-  flex:2 40%;
+  flex:2 80%;
 }
 
 .project-box1 .project-text {
-  padding-left: 50px;
-  padding-bottom: 50px;
+  padding-left: 10%;
+  
 }
 
 #project1 {
   background-image: url('../images/project1.jpg');
-  height: 420px;
+  height: 200px;
   background-size:cover;
   background-position:100%;
   border-radius: 15px;
@@ -229,17 +227,17 @@ section {
 .project-box2 {
   display: flex;
   flex-wrap: wrap;
-  flex: 1.5 20%;
+  flex: 2 60%;
 }
 
 .project-box2 .project-text {
-  padding-left: 20px;
+  padding-left: 10%;
   padding-bottom: 20px;
 }
 
 #project2 {
   background-image: url('../images/project2.jpg');
-  height: 180px;
+  height: 200px;
   background-size:cover;
   background-position: 100%;
   border-radius: 15px;
@@ -250,20 +248,20 @@ section {
 .project-box3 {
   display: flex;
   flex-wrap: wrap;
-  flex: 1.5 20%
+  flex: 1 30%
 }
 
 #project3 {
   background-image: url('../images/project3.jpg');
-  height: 240px;
+  height: 200px;
   background-size:cover;
-  background-position: 100%;
+  background-position: 60%;
   border-radius: 15px;
 }
 
 .project-box3 .project-text {
-  padding-left: 150px;
-  padding-top: 50px
+  padding-left: 60%;
+  
 }
 
 /* WORK STYLES END */
