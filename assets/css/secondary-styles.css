@@ -29,6 +29,8 @@
 .resume-head img {
   margin-left: 10%;
   margin-right: 10%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 .resume-address {
@@ -40,13 +42,14 @@
   font-weight: bold;
 }
 
-.resume-page {
+.resume-pages {
   width: 100%;
   display: flex;
   position: relative;
   flex-wrap: wrap;
   justify-content: space-around;
   margin:0 auto;
+  margin-top: 2%;
   padding:0 auto;
   border:solid 1px;
   border-color: thistle;
@@ -54,4 +57,9 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background-image: url('../images/resumebackground.jpg');
   background-attachment: fixed;
+}
+
+.resume-page {
+  width: 45%;
+  margin-bottom: 5%;
 }
