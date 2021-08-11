@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.resume-address a {
+  color: blue;
+}
+
 .resume-pages {
   width: 100%;
   display: flex;
@@ -62,4 +66,19 @@
 .resume-page {
   width: 45%;
   margin-bottom: 5%;
+}
+
+.resume-page:hover { 
+  transform: scale(1.1); 
+}
+
+@media screen and (max-width: 768px) {
+
+  .section {
+    margin-right: 10%;
+  }
+  
+  .resume-page {
+    flex: 0 70%;
+  }
 }
