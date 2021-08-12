@@ -18,7 +18,7 @@
     position: relative;
     margin: 0 auto;
     align-items: center;
-    background-image: url('../images/gallerybackground.JPG');
+    background-image: url('../images/mainbackground.jpg');
     background-attachment: fixed;
     border-color: thistle;
     border-radius: 15px;
@@ -54,7 +54,7 @@
     border-color: thistle;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-image: url('../images/gallerybackground.JPG');
+    background-image: url('../images/mainbackground.jpg');
     background-attachment: fixed;
     
     position: relative;
