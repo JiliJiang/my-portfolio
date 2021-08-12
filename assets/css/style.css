@@ -163,7 +163,7 @@ section {
   font-size: 46px;
   font-family: cursive;
   font-weight: bold;
-  color: var(--primary-color);
+  color: white;
   text-align: right;
   flex: 1 20%;
   padding-right: 60px;
@@ -259,7 +259,7 @@ section {
   font-size: 46px;
   font-family: cursive;
   font-weight: bold;
-  color: var(--primary-color);
+  
   text-align: right;
   flex: 1 20%;
   padding-right: 60px;
@@ -316,7 +316,7 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
-    header {
+  header {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
@@ -335,6 +335,10 @@ section {
 
   header nav ul li a {
     font-size: 20px;
+  }
+
+  header h1{
+    font-size: 36px;
   }
 
    
@@ -356,6 +360,11 @@ section {
     justify-content: center;
   }
 
+  header h1{
+    font-size: 28px;
+  }
+ 
+
   .project {
     flex: 0 80%;
   }
@@ -368,7 +377,12 @@ section {
   * {
     text-align: center;
   }
-  
+
+  header h1{
+    font-size: 20px;
+  }
+
+     
   .project {
     flex: 0 90%;
   }
