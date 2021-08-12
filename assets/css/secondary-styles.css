@@ -49,9 +49,8 @@
 .resume-pages {
   width: 100%;
   display: flex;
+  
   position: relative;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin:0 auto;
   margin-top: 2%;
   padding:0 auto;
@@ -63,9 +62,12 @@
   background-attachment: fixed;
 }
 
+
 .resume-page {
-  width: 40%;
+  display: flex;
+  width: 30%;
   margin-bottom: 5%;
+  flex:1;
 }
 
 .resume-page:hover { 
