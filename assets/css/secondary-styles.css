@@ -65,9 +65,9 @@
 
 .resume-page {
   display: flex;
-  width: 30%;
+  
   margin-bottom: 5%;
-  flex:1;
+  flex:1 30%;
 }
 
 .resume-page:hover { 
