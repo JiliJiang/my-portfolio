@@ -134,7 +134,7 @@ section {
   line-height: 1.7;
   color: white;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 24px;
   text-align: left;
   flex:2 50%;
   padding-top: 20px;
@@ -202,7 +202,11 @@ section {
 
 .project:hover { 
   transform: scale(1.1); 
+  filter:brightness(130%);
+  color:aqua
 }
+
+
 
 .project p span {
   font-family: cursive;
@@ -215,6 +219,8 @@ section {
   color: azure;
   font-style: italic;
 }
+
+
 
 #project1 {
   background-image: url('../images/project1.jpg');
@@ -251,7 +257,7 @@ section {
   background-attachment: fixed;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   
 }
 
@@ -268,7 +274,7 @@ section {
 }
 
 .contact-info {
-  font-size: 18px;
+  font-size: 20px;
   font-family: sans-serif;
   color: white;
   display: flex;
@@ -278,6 +284,10 @@ section {
   flex:2 50%;
 }
 
+.contact-info a {
+  color: aqua;
+}
+
 #phone {
   text-align: center;
   flex: 1 30%;
@@ -285,7 +295,7 @@ section {
 
 #phone span{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #email{
@@ -295,19 +305,19 @@ section {
 
 #email span{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
-#address{
+#github{
   text-align: center;
   font: 16px;
   flex: 2 30%;
 }
 
-#address span{
+#github span{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 /*CONTACT STYLES END*/
 
@@ -325,6 +335,7 @@ section {
   header h1 {
     width: 100%;
     text-align: center;
+    
   }
 
   header nav ul {

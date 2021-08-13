@@ -33,7 +33,7 @@
   }
   
   .gallery-intro {
-    font-size: 20px;
+    font-size: 24px;
     color: whitesmoke;
     flex:1.5 40%;
     text-align: center;
@@ -84,6 +84,7 @@
   
   .gallery-image:hover { 
     transform: scale(1.2); 
+    filter:brightness(140%);
   }
 
   #gallery1 {
