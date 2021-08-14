@@ -129,14 +129,29 @@ section {
   padding-top: 20px;
   
 }
+.intro div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex:2 50%;  
+  align-items: flex-start;
+  justify-content: space-around;
+  
+}
+.intro img {
+  width: 260px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  box-shadow: rgba(0,0,0,0.8);
+}
 
 .intro p {
   line-height: 1.7;
   color: white;
   margin-left: 10px;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
-  flex:2 50%;
+  flex:2 30%;
   padding-top: 20px;
   padding-left: 20px;
   text-align: left;
