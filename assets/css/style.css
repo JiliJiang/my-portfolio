@@ -187,8 +187,7 @@ section {
 
   font-size: 18px;
   padding: 2% 2%;
-  color:white;
-  font-weight: bold;
+  
   margin: 1% auto;
   background-size:cover;
   background-position:100%;
@@ -203,32 +202,70 @@ section {
 .project:hover { 
   transform: scale(1.1); 
   filter:brightness(130%);
-  color:aqua
+  
 }
 
+.project-text {
+  background-color: rgba(37, 156, 117, 0.4);
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color:white;
+  font-weight: bold;
+  border-radius: 15px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
+}
 
-.project p span {
+.project-text:hover {
+  transform: scale(1.1); 
+  filter:brightness(130%);
+  color:darkkhaki
+}
+
+#run-buddy:hover {
+  transform: scale(1.5); 
+  filter:brightness(130%);
+  color:black;
+  
+}
+
+.project-text p span {
   font-family: cursive;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
 }
 
-.project a {
-  font-size: 24px;
+.project-text a {
+  font-size: 20px;
   color: azure;
   font-style: italic;
 }
-
-
 
 #project1 {
   background-image: url('../images/project1.jpg');
   width: 94%;
 }
 
+#project-text1 {
+  width: 30%;
+  font-size: 22px;
+}
+
+#project-text1 a{
+  font-size: 22px;
+}
+
 #project2 {
   background-image: url('../images/project2.jpg');
+  width: 50%;
+}
+
+#project-text2 {
   width: 50%;
 }
 
@@ -237,15 +274,27 @@ section {
   width: 40%;
 }
 
+#project-text3{
+  width:50%
+}
+
 #project4 {
   background-image: url('../images/project4.jpg');
   width: 40%;
+}
+
+#project-text4{
+  width:40%;
 }
 
 #project5 {
   background-image: url('../images/project5.jpg');
   width: 50%;
 }
+#project-text5{
+  width:40%;
+}
+
 
 
 /* WORK STYLES END */
