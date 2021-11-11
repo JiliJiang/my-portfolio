@@ -1,7 +1,7 @@
-![Screenshot](https://user-images.githubusercontent.com/73008338/129420200-9c29f397-6091-4b6c-a943-e6ab0f91fd20.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/73008338/141221010-3575d04c-0578-47b8-a5e4-18a5f2dc4f88.png)
 
 ## Purpose
-My professional porfolio web site hosting deployed projects, my resume, and a gallery of selected art work. 
+My professional porfolio web site hosting deployed projects, my contact information, and a gallery of selected art work. 
 
 ## Built With
 * HTML
