@@ -229,7 +229,7 @@ section {
 }
 
 .project-text {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(16, 51, 83, 0.616);
   
   display: inline-flex;
   flex-wrap: wrap;
@@ -256,13 +256,13 @@ section {
   color:darkkhaki
 }
 
+
 #project-link:hover {
   transform: scale(1.5); 
   filter:brightness(130%);
   color:black;
   
 }
-
 .project-text p span {
   font-family: cursive;
   font-weight: bolder;
@@ -271,7 +271,7 @@ section {
 }
 
 .project-text a {
-  font-size: 20px;
+  font-size: 22px;
   color: azure;
   font-style: normal;
   font-weight: bolder;
