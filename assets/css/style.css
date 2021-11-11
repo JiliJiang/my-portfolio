@@ -207,7 +207,7 @@ section {
   text-align: left;
   line-height: 1.5;
   height:200px;
-
+  
   font-size: 18px;
   padding: 2% 2%;
   
@@ -229,18 +229,24 @@ section {
 }
 
 .project-text {
-  background-color: rgba(37, 156, 117, 0.4);
+  background-color: rgba(0,0,0,0.5);
+  
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
   height: 100px;
-  padding: 10px 20px;
-  font-size: 18px;
+  width: 200px;
+  
+  margin: auto;
+  font-size: 22px;
   color:white;
   font-weight: bold;
   border-radius: 15px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  padding-left: 30px;
+  
+  padding-top: 2px;
 
 }
 
@@ -274,10 +280,12 @@ section {
 #project1 {
   background-image: url('../images/project1.jpg');
   width: 94%;
+  color:black
+  
 }
 
 #project-text1 {
-  width: 30%;
+  width: 80%;
   font-size: 22px;
 }
 
@@ -287,37 +295,40 @@ section {
 
 #project2 {
   background-image: url('../images/project2.jpg');
-  width: 50%;
+  width: 95%;
 }
 
 #project-text2 {
-  width: 50%;
+  width: 60%;
 }
 
 #project3 {
   background-image: url('../images/project3.jpg');
-  width: 40%;
+  width: 95%;
+  color:black
 }
 
 #project-text3{
-  width:50%
+  width:60%
 }
 
 #project4 {
   background-image: url('../images/project4.jpg');
-  width: 40%;
+  width: 50%;
 }
 
 #project-text4{
-  width:40%;
+  width:80%;
 }
+
 
 #project5 {
   background-image: url('../images/project5.jpg');
-  width: 50%;
+  width: 40%;
 }
 #project-text5{
-  width:40%;
+  width:60%;
+  
 }
 
 
