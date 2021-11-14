@@ -1,0 +1,87 @@
+
+.hero {
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  display: inline-block;
+  padding: 0 80px 15px 80px;
+  font-weight: normal;
+  font-size: 56px;
+}
+
+.resume-head {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  background-image: url('../images/resumebackground.jpg');
+  background-attachment: fixed;
+  border-color: thistle;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.resume-head img {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.resume-intro {
+  font-size: 18px;
+  flex:1.5 60%;
+  text-align: left;
+  margin-left: auto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.resume-intro a {
+  color: aqua;
+}
+
+.resume-pages {
+  width: 100%;
+  display: flex;
+  
+  position: relative;
+  margin:0 auto;
+  margin-top: 2%;
+  padding:0 auto;
+  border:solid 1px;
+  border-color: thistle;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-image: url('../images/resumebackground.jpg');
+  background-attachment: fixed;
+}
+
+
+.resume-page {
+  display: flex;
+  width: 30%;
+  margin-bottom: 5%;
+  flex:1 30%;
+}
+
+.resume-page:hover { 
+  transform: scale(1.1); 
+}
+
+@media screen and (max-width: 980px) {
+
+  .section {
+    margin-right: 10%;
+  }
+  
+  .resume-page {
+    flex: 0 70%;
+  }
+}
