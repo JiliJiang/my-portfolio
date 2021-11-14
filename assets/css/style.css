@@ -239,7 +239,7 @@ section {
   width: 200px;
   
   margin: auto;
-  font-size: 22px;
+  font-size: 18px;
   color:white;
   font-weight: bold;
   border-radius: 15px;
@@ -286,12 +286,9 @@ section {
 
 #project-text1 {
   width: 80%;
-  font-size: 22px;
+  
 }
 
-#project-text1 a{
-  font-size: 22px;
-}
 
 #project2 {
   background-image: url('../images/project2.jpg');
@@ -299,7 +296,7 @@ section {
 }
 
 #project-text2 {
-  width: 60%;
+  width: 80%;
 }
 
 #project3 {
